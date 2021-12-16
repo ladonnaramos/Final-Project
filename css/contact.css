@@ -1,0 +1,30 @@
+body {
+    background-color: #93CFDC;
+  }
+  nav {
+    background-color: rgb(240, 240, 134); 
+    list-style-type: none;
+    text-align: center;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  nav li {
+    display: inline-block;
+    font-size: 25px;
+    padding: 10px;
+  }
+h2{
+    margin-left: 3cm;
+}
+
+  .action {
+    overflow: auto;
+    padding: 30px;
+    margin: 30px;
+    border: black;
+    column-gap: 30px;
+    text-align: center;
+  }
+  

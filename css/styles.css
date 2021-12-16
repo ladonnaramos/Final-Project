@@ -1,39 +1,64 @@
 /* font-family: 'Lora', serif;  */
 body {
-    background-color: lightblue;
+    background-color: #93CFDC;
   }
-ul {
+
+  nav {
+    background-color: rgb(240, 240, 134); 
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    text-align: center;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
   }
   
-  li {
-    float: right;
+  nav li {
+    display: inline-block;
+    font-size: 25px;
+    padding: 10px;
   }
-  
-  li a {
-    display: block;
+
+ .clearfix {
+    overflow: auto;
+    padding: 10px;
+    border: black;
+    column-gap: 30px;
+    text-align: center;
+  }
+/*   
+  .div2 {
+    padding: 10px;
+    border: 3px;
+  } */
+
+  .column {
+    float: left;
+    column-gap: 80px;
+    width: 30%;
     padding: 20px;
+    height: 300px;
+    border-style: solid;
+    text-align: center;
+  }
+   
+  footer {
+    text-align: center;
     background-color: none;
+    color: black;
   }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
- } 
- 
-h1 {
-    text-align: center;
-}
 
-div { 
-    text-align: center;
-}
-/* 
+  /* Create three equal columns that floats next to each other 
+  
+
+  
+  /* Clear floats after the columns 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
 * {
     padding: 0;
     margin: 0;
@@ -76,12 +101,11 @@ main {
     width: 33%;
     min-height: 300px;
     padding: 10px;
-    /* margin: 20px 2px; */
+    /* margin: 20px 2px; 
     background-color: lightsteelblue;
     border: 0.5px solid;
 }
-*/
+
 .clearfix {
     clear: both;
 }
-*/
